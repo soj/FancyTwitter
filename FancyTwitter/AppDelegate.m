@@ -7,12 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "SSTheme.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [ThemeManager customizeAppAppearance];
+    
     return YES;
 }
 							

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7073CF1195290C7002A15C6 /* NavBarTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7073CF0195290C7002A15C6 /* NavBarTitleView.m */; };
+		F7073CF91952E298002A15C6 /* SSTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F7073CF41952E298002A15C6 /* SSTheme.m */; };
+		F7073CFA1952E298002A15C6 /* NewTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F7073CF61952E298002A15C6 /* NewTheme.m */; };
+		F7073CFB1952E298002A15C6 /* OldTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F7073CF81952E298002A15C6 /* OldTheme.m */; };
 		F7BA45C619501ABB00CC7874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BA45C519501ABB00CC7874 /* Foundation.framework */; };
 		F7BA45C819501ABB00CC7874 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BA45C719501ABB00CC7874 /* CoreGraphics.framework */; };
 		F7BA45CA19501ABB00CC7874 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BA45C919501ABB00CC7874 /* UIKit.framework */; };
@@ -21,6 +25,9 @@
 		F7BA45E719501ABB00CC7874 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BA45C919501ABB00CC7874 /* UIKit.framework */; };
 		F7BA45EF19501ABB00CC7874 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7BA45ED19501ABB00CC7874 /* InfoPlist.strings */; };
 		F7BA45F119501ABB00CC7874 /* FancyTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BA45F019501ABB00CC7874 /* FancyTwitterTests.m */; };
+		F7BA45FC19501AE400CC7874 /* FTDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BA45FB19501AE400CC7874 /* FTDataSource.m */; };
+		F7BA4601195027E900CC7874 /* FancyTwitterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BA4600195027E900CC7874 /* FancyTwitterTableViewCell.m */; };
+		F7EA66A71953E38200B89E78 /* SectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA66A61953E38200B89E78 /* SectionsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7073CEF195290C7002A15C6 /* NavBarTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarTitleView.h; sourceTree = "<group>"; };
+		F7073CF0195290C7002A15C6 /* NavBarTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarTitleView.m; sourceTree = "<group>"; };
+		F7073CF31952E298002A15C6 /* SSTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTheme.h; sourceTree = "<group>"; };
+		F7073CF41952E298002A15C6 /* SSTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTheme.m; sourceTree = "<group>"; };
+		F7073CF51952E298002A15C6 /* NewTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTheme.h; sourceTree = "<group>"; };
+		F7073CF61952E298002A15C6 /* NewTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTheme.m; sourceTree = "<group>"; };
+		F7073CF71952E298002A15C6 /* OldTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldTheme.h; sourceTree = "<group>"; };
+		F7073CF81952E298002A15C6 /* OldTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldTheme.m; sourceTree = "<group>"; };
 		F7BA45C219501ABB00CC7874 /* FancyTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BA45C519501ABB00CC7874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F7BA45C719501ABB00CC7874 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +68,12 @@
 		F7BA45EC19501ABB00CC7874 /* FancyTwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FancyTwitterTests-Info.plist"; sourceTree = "<group>"; };
 		F7BA45EE19501ABB00CC7874 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F7BA45F019501ABB00CC7874 /* FancyTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyTwitterTests.m; sourceTree = "<group>"; };
+		F7BA45FA19501AE400CC7874 /* FTDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDataSource.h; sourceTree = "<group>"; };
+		F7BA45FB19501AE400CC7874 /* FTDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDataSource.m; sourceTree = "<group>"; };
+		F7BA45FF195027E900CC7874 /* FancyTwitterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyTwitterTableViewCell.h; sourceTree = "<group>"; };
+		F7BA4600195027E900CC7874 /* FancyTwitterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyTwitterTableViewCell.m; sourceTree = "<group>"; };
+		F7EA66A51953E38200B89E78 /* SectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionsTableViewController.h; sourceTree = "<group>"; };
+		F7EA66A61953E38200B89E78 /* SectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7073CF21952E286002A15C6 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F7073CF31952E298002A15C6 /* SSTheme.h */,
+				F7073CF41952E298002A15C6 /* SSTheme.m */,
+				F7073CF51952E298002A15C6 /* NewTheme.h */,
+				F7073CF61952E298002A15C6 /* NewTheme.m */,
+				F7073CF71952E298002A15C6 /* OldTheme.h */,
+				F7073CF81952E298002A15C6 /* OldTheme.m */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
 		F7BA45B919501ABB00CC7874 = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +146,18 @@
 		F7BA45CB19501ABB00CC7874 /* FancyTwitter */ = {
 			isa = PBXGroup;
 			children = (
+				F7073CF21952E286002A15C6 /* Theme */,
+				F7BA45FE195027CA00CC7874 /* Cell */,
+				F7BA45FD19501AEA00CC7874 /* Data */,
 				F7BA45D419501ABB00CC7874 /* AppDelegate.h */,
 				F7BA45D519501ABB00CC7874 /* AppDelegate.m */,
 				F7BA45D719501ABB00CC7874 /* Main.storyboard */,
 				F7BA45DA19501ABB00CC7874 /* ViewController.h */,
 				F7BA45DB19501ABB00CC7874 /* ViewController.m */,
+				F7EA66A51953E38200B89E78 /* SectionsTableViewController.h */,
+				F7EA66A61953E38200B89E78 /* SectionsTableViewController.m */,
+				F7073CEF195290C7002A15C6 /* NavBarTitleView.h */,
+				F7073CF0195290C7002A15C6 /* NavBarTitleView.m */,
 				F7BA45DD19501ABB00CC7874 /* Images.xcassets */,
 				F7BA45CC19501ABB00CC7874 /* Supporting Files */,
 			);
@@ -150,6 +191,24 @@
 				F7BA45ED19501ABB00CC7874 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7BA45FD19501AEA00CC7874 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F7BA45FA19501AE400CC7874 /* FTDataSource.h */,
+				F7BA45FB19501AE400CC7874 /* FTDataSource.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		F7BA45FE195027CA00CC7874 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F7BA45FF195027E900CC7874 /* FancyTwitterTableViewCell.h */,
+				F7BA4600195027E900CC7874 /* FancyTwitterTableViewCell.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7BA45DC19501ABB00CC7874 /* ViewController.m in Sources */,
+				F7073CF91952E298002A15C6 /* SSTheme.m in Sources */,
+				F7073CFA1952E298002A15C6 /* NewTheme.m in Sources */,
+				F7073CFB1952E298002A15C6 /* OldTheme.m in Sources */,
 				F7BA45D619501ABB00CC7874 /* AppDelegate.m in Sources */,
+				F7BA4601195027E900CC7874 /* FancyTwitterTableViewCell.m in Sources */,
+				F7073CF1195290C7002A15C6 /* NavBarTitleView.m in Sources */,
+				F7EA66A71953E38200B89E78 /* SectionsTableViewController.m in Sources */,
+				F7BA45FC19501AE400CC7874 /* FTDataSource.m in Sources */,
 				F7BA45D219501ABB00CC7874 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +444,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FancyTwitter/FancyTwitter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "FancyTwitter/FancyTwitter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -391,6 +461,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FancyTwitter/FancyTwitter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "FancyTwitter/FancyTwitter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -456,6 +527,7 @@
 				F7BA45F619501ABB00CC7874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7BA45F719501ABB00CC7874 /* Build configuration list for PBXNativeTarget "FancyTwitterTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +536,7 @@
 				F7BA45F919501ABB00CC7874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

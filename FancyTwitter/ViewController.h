@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NavBarTitleView.h"
+#import "SectionsTableViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,NavBarTitleViewProtocol,SectionsTableViewProtocol>
+
+@property (nonatomic,weak) IBOutlet UIImageView *backgroundImageView;
+@property (nonatomic,weak) IBOutlet UITableView *tableView;
 
 @end
